@@ -1,0 +1,399 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+:root{
+	--Bitcoin-Orange: #F7931A;
+	--Soft-Orange: #FFE9D5;
+	--Secondary-Blue: #1A9AF7;
+	--Soft-Blue:  #E7FSFF;
+	--Warm-Black:  #201E1C;
+	--Warm-Black-1: #282623 ;
+	--Grey: #BABABA;
+	--Off-White: #FAF8F7;
+	--Just-White:#FFFFFF;
+	--Soft-Black: #201e1ce0;
+	--Warm-Grey:  #989595;
+}
+
+
+html{
+	
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+
+
+.header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(
+	207.8deg, #201E1C 16.69%, #F7931A 100%);
+	width: 100%;
+	height: 40rem;
+}
+
+nav{
+	display: none;
+}
+
+.header__img{
+	margin-top: -100px;
+}
+
+.header__title{
+	text-align: center;
+	font-family: 'Robotobo', sans-serif;
+	font-size: 2.2rem;
+	font-weight: 700;
+	margin: 1.6rem 0px;
+	color: var(--Just-White);
+}
+
+.header__text{
+	margin: 1rem 0px -13rem 0;
+	font-family: 'Robotobo', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 700;
+	text-align: center;
+	color: var(--Off-White);
+	width: 35rem;
+
+}
+
+.header__hiper{
+	position: absolute;
+    margin-top: 40rem;
+    text-decoration: none;
+}
+
+.header__hiper--button{	
+    width: 28rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.45rem;
+    font-weight: 800;
+    font-family: 'Robotobo', sans-serif;
+    color: var(--Soft-Black);
+}
+
+/*modificacion al section1*/
+
+.section1{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+.section1__img{
+	width: 19.5rem;
+    height: 19.5rem;
+}
+
+.section1__title{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Robotobo', sans-serif;
+    margin: 20px;
+}
+
+
+.section1__text{ 
+	text-align: center;
+    margin: 10px;
+    font-size: 1.5rem;
+    font-family: 'Robotobo', sans-serif;
+}
+
+.section1__table{
+
+}
+
+
+/*modificacion al sectio 2*/
+.section2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.section2__img{
+	position: relative;
+	top: 10px;
+}
+
+.section2__atributes{
+	width: 100%;
+	padding: 70px 0 45px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--Warm-Black);
+
+
+}
+
+.section2__atributes--title{
+	width: 35rem;
+	font-size: 3rem;
+	font-family: 'Robotobo', sans-serif;
+	text-align: center;
+	color: var(--Off-White);
+
+
+}
+
+
+.section2__atributes--text{
+	margin: 20px 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: 'Robotobo', sans-serif;
+    color: var(--Grey);
+  
+}
+
+.section2__atributes--Container{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.atributes__container{
+	width: 35rem;
+    height: 20rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: var(--Warm-Black-1);
+    margin: 15px;
+    border-radius: 4px;
+    padding: 15px
+
+}
+
+.atributes__img{
+	width: 30px;
+
+}
+.atributes__title{
+	margin: 5px 0;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: var(--Off-White);
+
+}
+
+.atributes__text{
+	font-size: 1.5rem;
+    font-family: 'Robotobo', sans-serif;
+    font-weight: 600;
+    color: var(--Grey);
+
+}
+
+
+
+/*modificacion al section3*/
+
+.section3{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	background: linear-gradient( 180deg, #201E1C 17%, #F7931A 100%); 
+
+}
+
+.section3__title{
+	position: absolute;
+	margin: 8rem 0;
+	z-index: 10;
+    font-family: 'Robotobo', sans-serif;
+    font-size: 2.8rem;
+    color: var(--Off-White);
+ 
+}
+
+.section3__img{
+	width: 350px;
+    object-fit: contain;
+}
+
+/*modificacion al section4*/
+
+.section4{
+
+}
+
+.section4__div{
+	padding: 70px 0;
+}
+
+.section4__container{
+    overflow: scroll;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+
+.section4__container--title{
+	font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Robotobo', sans-serif;
+    /*margin: 10rem 0 2rem;*/
+    color: var(--Warm-Black);
+	
+}
+
+
+.section4__container--text{
+	text-align: center;
+    font-size: 1.5rem;
+    font-family:'Robotobo', sans-serif;
+    font-weight: 500;
+    margin: 35px 15px;
+	color: var(--Warm-Grey);
+}
+
+
+.layercontainer{
+	display: flex;
+    flex-direction: row;
+        margin: 40px 0;
+	
+}
+
+
+.layercontainer__card{
+    text-align: center;
+    background: var(--Just-White);
+    height: 30rem;
+    width: 25rem;
+    margin:3rem 2rem;
+    box-shadow: 0 3px 5px var(--Grey);
+    border-radius: 15px;
+}
+
+
+.card__buttondef{
+	position: relative;
+	top: -20px;
+	width: 15rem;
+    height: 4rem;
+    border: none;
+    background: var(--Bitcoin-Orange);
+    color: var(--Off-White);
+    font-family:'Robotobo', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border-radius: 13px
+}
+
+.card__title{
+	font-size: 2.1rem;
+    font-family: 'Robotobo', sans-serif;
+    color: var(--Warm-Black);
+    font-weight: 500;
+}
+
+.card__price{
+	font-size: 2.0rem;
+	display: flex;
+	justify-content: center;
+	font-family: 'Robotobo', sans-serif;
+	margin: 10px 0;
+
+
+}
+
+.card__price--b{
+	font-size: 6.5rem;
+}
+
+.card__definition{
+	font-size: 1.4rem;
+    font-family: 'Robotobo', sans-serif;
+    margin: 20px 5px;
+    font-weight: 500;
+    color: var(--Warm-Grey);
+
+}
+
+.card__buttoncontainer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 50px;
+
+}
+
+.card__buttonobt{
+	width: 18rem;
+    height: 5rem;
+    border: solid var(--Bitcoin-Orange);
+    font-size: 1.5rem;
+    font-weight: 700;
+    background: var(--Off-White);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--Soft-Black);
+
+}
+
+.buttonobtspe{
+	margin-top: 30px;
+}
+
+
+
+
+/*modificacion al footer*/
+
+.footer{
+	display: flex;
+    background: var(--Bitcoin-Orange);
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 16rem;
+
+}
+
+.footer__list{
+	list-style: none;
+
+}
+
+.footer__list--item{
+	font-family: 'Robotobo', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 10px 0;
+    color: var(--Off-White);
+
+}
+
+.footer__img{
+	width: 100px;
+
+}
+
+
